@@ -1630,6 +1630,7 @@ net localgroup Administrators #to check local admins
 ### Powerview
 
 ```powershell
+
 Import-Module .\PowerView.ps1 #loading module to powershell, if it gives an error then change the execution policy
 Get-NetDomain #basic information about the domain
 Get-NetUser #list of all users in the domain
